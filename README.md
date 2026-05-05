@@ -1,6 +1,6 @@
 # IA et Jeux — Robots réactifs, optimisation et Paintwars
 
-Ce dépôt regroupe plusieurs travaux réalisés en Python autour de la robotique simulée et du jeu multi-agents.  
+Ce dépôt regroupe plusieurs travaux réalisés en Python autour de la robotique simulée et du jeu multi-agents.
 L’objectif était d’explorer différents comportements de robots, depuis des stratégies réactives simples jusqu’à des approches d’optimisation et d’évaluation en tournoi.
 
 ## Contenu du projet
@@ -48,6 +48,7 @@ Cloner le dépôt puis installer les dépendances nécessaires :
 
 ```bash
 pip3 install pygame numpy matplotlib numba
+```
 
 ## Lancer le projet
 
@@ -57,6 +58,7 @@ Pour lancer une simulation avec les robots de type Braitenberg :
 
 ```bash
 python3 tetracomposibot.py config_TP1
+```
 
 ### 2) Tester les approches d’optimisation
 
@@ -64,6 +66,7 @@ Pour lancer une simulation orientée recherche / optimisation :
 
 ```bash
 python3 tetracomposibot.py config_TP2
+```
 
 ### 3) Lancer une confrontation Paintwars
 
@@ -71,6 +74,7 @@ Pour exécuter un match entre les agents définis dans la configuration Paintwar
 
 ```bash
 python3 tetracomposibot.py config_Paintwars
+```
 
 ### 4) Lancer un tournoi automatique
 
@@ -78,33 +82,35 @@ Donner les droits d’exécution aux scripts si nécessaire :
 
 ```bash
 chmod +x go_tournament
-```bash
 chmod +x go_tournament_eval
+```
 
 Puis lancer :
 
 ```bash
 ./go_tournament
+```
 
 ou
 
 ```bash
 ./go_tournament_eval
+```
 
 ## Ce que ce projet met en avant
 
-- mise en place de robots réactifs dans un environnement simulé
-- comparaison de plusieurs stratégies de déplacement et d’interaction
-- expérimentation de méthodes d’optimisation de comportements
-- travail sur la modularité du code, avec séparation entre simulateur, configurations et agents
+- mise en place de **robots réactifs** dans un environnement simulé
+- comparaison de plusieurs **stratégies de déplacement et d’interaction**
+- expérimentation de méthodes d’**optimisation de comportements**
+- travail sur la **modularité du code**, avec séparation entre simulateur, configurations et agents
 
 ## Remarques
 
-Selon la configuration choisie, l’affichage peut être plus ou moins rapide.
+Selon la configuration choisie, l’affichage peut être plus ou moins rapide.  
 Certaines exécutions sont pensées pour la visualisation, d’autres pour l’évaluation automatique.
 
 ## Auteure
 
-Belkiss Tiss
+**Belkiss Tiss**
 
-## Projet réalisé dans un cadre universitaire autour de l’IA, des agents et de la robotique simulée.
+Projet réalisé dans un cadre universitaire autour de l’IA, des agents et de la robotique simulée.
