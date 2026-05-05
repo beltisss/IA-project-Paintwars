@@ -1,4 +1,4 @@
-# IA et Jeux — Robots réactifs, optimisation et Paintwars
+# IA et Jeux - Robots réactifs, optimisation et Paintwars
 
 Ce dépôt regroupe plusieurs travaux réalisés en Python autour de la robotique simulée et du jeu multi-agents.
 L’objectif était d’explorer différents comportements de robots, depuis des stratégies réactives simples jusqu’à des approches d’optimisation et d’évaluation en tournoi.
